@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 310" width="1200" height="310" role="img" aria-label="ChainForge">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#16324a"/><stop offset="1" stop-color="#241a46"/></linearGradient>
+    <linearGradient id="bgfill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060a13"/><stop offset=".5" stop-color="#0b1226"/><stop offset="1" stop-color="#130d26"/></linearGradient>
+    <linearGradient id="tg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#5eead4"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#fbbf24"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1200 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#5eead4" stop-opacity=".35"/><stop offset="1" stop-color="#5eead4" stop-opacity="0"/></radialGradient>
+  </defs>
+  <style>
+    .t{font:800 74px 'Segoe UI',Inter,Arial,sans-serif;letter-spacing:-2px;fill:url(#tg)}
+    .s{font:600 20px ui-monospace,Menlo,Consolas,monospace;fill:#8c98b4;letter-spacing:.5px}
+    .bn{font:800 22px ui-monospace,Menlo,Consolas,monospace;fill:#e8edf9}
+    .hs{font:12px ui-monospace,Menlo,Consolas,monospace;fill:#34d399}
+    .nc{font:11px ui-monospace,Menlo,Consolas,monospace;fill:#8c98b4}
+    .blk{animation:float 3.4s ease-in-out infinite}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+    .flow{stroke:#a78bfa;stroke-width:3;stroke-dasharray:7 6;animation:dash .9s linear infinite}
+    @keyframes dash{to{stroke-dashoffset:-26}}
+    .pulse{animation:pulse 3s ease-in-out infinite;transform-origin:600px 70px}
+    @keyframes pulse{0%,100%{opacity:.5;transform:scale(1)}50%{opacity:1;transform:scale(1.15)}}
+    .dot{animation:blink 1.2s infinite} @keyframes blink{50%{opacity:.15}}
+  </style>
+  <rect width="1200" height="310" rx="24" fill="url(#bgfill)"/>
+  <ellipse class="pulse" cx="600" cy="70" rx="420" ry="90" fill="url(#glow)"/>
+  <text x="600" y="92" text-anchor="middle" class="t">ChainForge</text>
+  <text x="600" y="132" text-anchor="middle" class="s">Proof of Work · ECC Wallets · UTXO Transactions · Web Dashboard<tspan class="dot"> ▌</tspan></text>
+  <g transform="translate(120,0)"><g class="blk" style="animation-delay:0.0s">
+    <rect x="0" y="190" width="150" height="86" rx="18" fill="url(#bg)" stroke="#5eead4" stroke-opacity=".45"/>
+    <text x="75" y="222" text-anchor="middle" class="bn">#1</text>
+    <text x="75" y="246" text-anchor="middle" class="hs">00005feceb66…</text>
+    <text x="75" y="264" text-anchor="middle" class="nc">nonce 50,445</text>
+  </g></g>
+  <line class="flow" x1="276" y1="233" x2="324" y2="233"/>
+  <g transform="translate(330,0)"><g class="blk" style="animation-delay:0.35s">
+    <rect x="0" y="190" width="150" height="86" rx="18" fill="url(#bg)" stroke="#5eead4" stroke-opacity=".45"/>
+    <text x="75" y="222" text-anchor="middle" class="bn">#2</text>
+    <text x="75" y="246" text-anchor="middle" class="hs">00006b86b273…</text>
+    <text x="75" y="264" text-anchor="middle" class="nc">nonce 27,772</text>
+  </g></g>
+  <line class="flow" x1="486" y1="233" x2="534" y2="233"/>
+  <g transform="translate(540,0)"><g class="blk" style="animation-delay:0.7s">
+    <rect x="0" y="190" width="150" height="86" rx="18" fill="url(#bg)" stroke="#5eead4" stroke-opacity=".45"/>
+    <text x="75" y="222" text-anchor="middle" class="bn">#3</text>
+    <text x="75" y="246" text-anchor="middle" class="hs">0000d4735e3a…</text>
+    <text x="75" y="264" text-anchor="middle" class="nc">nonce 59,750</text>
+  </g></g>
+  <line class="flow" x1="696" y1="233" x2="744" y2="233"/>
+  <g transform="translate(750,0)"><g class="blk" style="animation-delay:1.0499999999999998s">
+    <rect x="0" y="190" width="150" height="86" rx="18" fill="url(#bg)" stroke="#5eead4" stroke-opacity=".45"/>
+    <text x="75" y="222" text-anchor="middle" class="bn">#4</text>
+    <text x="75" y="246" text-anchor="middle" class="hs">00004e074085…</text>
+    <text x="75" y="264" text-anchor="middle" class="nc">nonce 14,328</text>
+  </g></g>
+  <line class="flow" x1="906" y1="233" x2="954" y2="233"/>
+  <g transform="translate(960,0)"><g class="blk" style="animation-delay:1.4s">
+    <rect x="0" y="190" width="150" height="86" rx="18" fill="url(#bg)" stroke="#5eead4" stroke-opacity=".45"/>
+    <text x="75" y="222" text-anchor="middle" class="bn">#5</text>
+    <text x="75" y="246" text-anchor="middle" class="hs">00004b227777…</text>
+    <text x="75" y="264" text-anchor="middle" class="nc">nonce 17,494</text>
+  </g></g>
+</svg>

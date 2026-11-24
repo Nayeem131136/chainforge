@@ -1,0 +1,22 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/out/
+*.log
+
+# Local blockchain data - generated at runtime.
+# forgecoin-account holds PRIVATE KEYS, never commit it.
+Data/forgecoin-blockchain
+Data/forgecoin-account
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
